@@ -1,0 +1,36 @@
+<div class="container-fluid">
+  <div class="col-md-12">
+    <div class="row">
+      <h1 style="text-align: right;">Bugs Profile</h1>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 mt-5">
+     
+        <p>To help you manage and track your application bugs. From when they occur and are raised, all the way till they are resolved:</p>
+        <ul>
+          <li><strong>Register an application</strong>. For example, if you go to the <em>Client Applications</em> page , you will be able to register any application.</li>
+        </ul>
+        <button class="btn btn-raised btn-outline-primary btn-lg m-1" (click)="gotoClients()">Register</button>
+      </div>
+      <div class="col-md-9 center">
+        <canvas id="myChart" width="700" height="400"></canvas>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-9 center">
+        <canvas id="myChart2" width="700" height="400"></canvas>
+      </div>
+      <div class="col-md-3 mt-5">
+        <ul>
+          <li><strong>Report & Track</strong>. See which bug needs urgent attention based on their <code>severity</code>. </li>
+        </ul>
+        <button class="btn btn-raised btn-outline-danger btn-lg m-1"  (click)="gotoBugs()">Report a bug</button>
+      </div>
+     
+      
+    </div>
+   
+  </div>
+</div>
